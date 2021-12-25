@@ -1,0 +1,19 @@
+{
+  "name": "pgtrigger",
+  "version": "1.0.0",
+  "description": "Demo app to listen to postgresql triggers using node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "author": "Shubham Kumar Shukla",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "pg-listen": "^1.7.0",
+    "util": "^0.12.4"
+  }
+}
